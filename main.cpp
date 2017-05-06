@@ -15,7 +15,7 @@ int main()
 	for(auto eachVal : v)
 		std::cout << eachVal;
 		
-	std::cout<<"\n"<<sum(5, 10);
+	std::cout << "\n" << sum(5, 10);
 		
 	return 0;
 }
