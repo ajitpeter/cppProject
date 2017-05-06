@@ -1,6 +1,12 @@
 #include <iostream>
 #incldue <vector>
 
+template <typename T>
+void sum(T a, T b)
+{
+	return a + b;
+}
+
 int main()
 {
 	std::cout<<"Travis CI\n";
@@ -8,6 +14,8 @@ int main()
 	
 	for(auto eachVal : v)
 		std::cout << eachVal;
+		
+	std::cout<<"\n"<<sum(5, 10);
 		
 	return 0;
 }
