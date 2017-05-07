@@ -2,7 +2,6 @@
 
 int main()
 {
-	std::cout<<"Travis CI\n";
-	
+	std::cout<<"Travis CI\n";	
 	return 0;
 }
