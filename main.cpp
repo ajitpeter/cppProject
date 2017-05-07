@@ -1,8 +1,8 @@
 #include <iostream>
-#incldue <vector>
+#include <vector>
 
 template <typename T>
-void sum(T a, T b)
+T sum(T a, T b)
 {
 	return a + b;
 }
@@ -15,7 +15,7 @@ int main()
 	for(auto eachVal : v)
 		std::cout << eachVal;
 		
-	std::cout << "\n" << sum(5, 10);
+	std::cout << "\n" << sum(5, 10) << "\n";
 		
 	return 0;
 }
