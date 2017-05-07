@@ -1,13 +1,12 @@
-#include <iostream>
-#include <vector>
+#include <stdio.h>
 
 int main()
 {
-	std::cout<<"Travis CI\n";	
-	std::vector<int> v = { 1, 2, 3, 4, 5, 6 };
+	int a = 10; 
+	int b = 20;
+	int c = a + b;
 	
-	for(auto val : v)
-		std::cout << val << "\n";
+	printf"The sum is : {0}"+c;
 		
 	return 0;
 }
